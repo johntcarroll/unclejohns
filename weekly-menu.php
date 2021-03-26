@@ -23,7 +23,7 @@
               <li>Amazing Lettuce</li>
               <li>Maybe Healthy</li>
             </ul>
-            <button type="button" class="w-100 btn btn-lg btn-outline-primary">Place Order</button>
+            <button type="button" class="w-100 btn btn-lg btn-outline-primary" data-bs-toggle="modal" data-bs-target="#contact-us-modal">Place Order</button>
           </div>
         </div>
       </div>
@@ -39,7 +39,7 @@
               <li>Baked Ziti</li>
               <li>Vegan Pesto</li>
             </ul>
-            <button type="button" class="w-100 btn btn-lg btn-outline-primary">Place Order</button>
+            <button type="button" class="w-100 btn btn-lg btn-outline-primary" data-bs-toggle="modal" data-bs-target="#contact-us-modal">Place Order</button>
           </div>
         </div>
       </div>
@@ -55,7 +55,7 @@
               <li>Who doesn't like cookies</li>
               <li>Other Desserts</li>
             </ul>
-            <button type="button" class="w-100 btn btn-lg btn-outline-primary">Place Order</button>
+            <button type="button" class="w-100 btn btn-lg btn-outline-primary" data-bs-toggle="modal" data-bs-target="#contact-us-modal">Place Order</button>
           </div>
         </div>
       </div>

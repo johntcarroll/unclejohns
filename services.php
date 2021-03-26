@@ -11,7 +11,7 @@
     <div class="col-lg-6 mx-auto">
       <p class="lead mb-4">Uncle John is the best caterer in the world!</p>
       <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
-        <button type="button" class="btn btn-primary btn-lg px-4 me-sm-3">Book Your Event</button>
+        <button type="button" class="btn btn-primary btn-lg px-4 me-sm-3" data-bs-toggle="modal" data-bs-target="#contact-us-modal">Book Your Event</button>
         <button type="button" class="btn btn-outline-secondary btn-lg px-4">What our Clients Think</button>
       </div>
     </div>
@@ -23,7 +23,7 @@
     <div class="col-lg-6 mx-auto">
       <p class="lead mb-4">Uncle John will cook in your own kitchen!</p>
       <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
-        <button type="button" class="btn btn-primary btn-lg px-4 me-sm-3">Reserve your Evening</button>
+        <button type="button" class="btn btn-primary btn-lg px-4 me-sm-3" data-bs-toggle="modal" data-bs-target="#contact-us-modal">Reserve your Evening</button>
         <button type="button" class="btn btn-outline-secondary btn-lg px-4">What our Clients Think</button>
       </div>
     </div>

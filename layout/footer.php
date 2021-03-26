@@ -23,6 +23,61 @@
     </div>
     </footer>
   </div>
+  <div class="modal" tabindex="-1" id='contact-us-modal'>
+    <div class="modal-dialog modal-xl">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">Contact Us</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class='row pt-2'>
+            <div class='col-xs-12'>
+              <label>Which service are you interested in?</label>
+              <select class="form-select contact-us-field" name='service' required>
+                <option value='' selected>Select a service</option>
+                <option value="Catering">Catering</option>
+                <option value="Private Chef">Private Chef</option>
+                <option value="Home Delivery">Home Delivery</option>
+              </select>
+            </div>
+          </div>
+          <div class='row pt-2'>
+            <div class='col-sm-6 col-xs-12'>
+              <label>First Name</label>
+              <input class='form-control contact-us-field' type='text' name='fname' placeholder='enter your first name'/>
+            </div>
+            <div class='col-sm-6 col-xs-12'>
+              <label>Last Name</label>
+              <input class='form-control contact-us-field' type='text' name='lname' placeholder='enter your last name'/>
+            </div>
+          </div>
+          <div class='row pt-2'>
+            <div class='col-sm-6 col-xs-12'>
+              <label>Phone</label>
+              <input class='form-control contact-us-field' type="text" name="phone" placeholder='enter your phone number'>
+            </div>
+            <div class='col-sm-6 col-xs-12'>
+              <label>Email</label>
+              <input class='form-control contact-us-field' type='text' name='email' placeholder='enter your email'/>
+            </div>
+          </div>
+          <div class='row pt-2'>
+            <div class='col-xs-12'>
+              <label>Details:</label>
+              <textarea class='form-control contact-us-field' rows="8" name="details"> </textarea>
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary" onclick='handleContactUsSubmission()'>Submit</button>
+          <input class='contact-us-field' type='hidden' name='token' value="<?=$token?>"/>
+        </div>
+      </div>
+    </div>
+  </div>
   <script src="../assets/js/bootstrap.bundle.min.js"></script>
+  <script src="../assets/js/contact.js"></script>
   </body>
 </html>
